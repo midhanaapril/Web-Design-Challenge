@@ -38,11 +38,11 @@
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right navbar-right-custom">
-              <li class="dropdown">
+              <li class="dropdown active">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Plots <span class="caret"></span></a>
                 <ul class="dropdown-menu">
                  <li><a href="temp.html">Max Temperature</a></li>
-                  <li><a href="humidity.html">Humidity</a></li>
+                  <li class="nav-item active"><a href="humidity.html">Humidity</a></li>
                   <li><a href="cloudiness.html">Cloudiness</a></li>
                   <li><a href="wind.html">Wind Speed</a></li>
                 </ul>
@@ -62,13 +62,12 @@
         <div class = "col-md-8">
           <div class = "description-content">
             <div class="description-header">
-              Humidity
+              Latitude vs Humidity
             </div>
             <img src="images/Latitude_VS_Humidity.png" id="images">
             <p>
-              The purpose of this project was to utilize web API to pull data from Open Weather Map API and compare latitude of 500 + cities with various factors.  <br><br>
-              The different factors that we compared latitude with was humidity, temperature, winds speed, and cloudiness. <br><br>
-              This website provides the data used and the visalizations that were created from the analysis with explanations and trends observed. 
+              Majority of the cities run tihs day had humidity greater than 60%. <br>
+              Based on his plot, it does not look as if there is a strong corelation between latitude and humidity. <br><br>
             </p>
           </div>
         </div>
